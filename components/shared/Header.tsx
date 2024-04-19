@@ -6,6 +6,12 @@ import Link from "next/link";
 import MobileNav from "./MobileNav";
 
 const Header = () => {
+
+  const orangeButton = {
+    background: "linear-gradient(to right, #ff4903, #FF7700, #FF8811)",
+    color: "#fff"
+  };
+
   return (
     <header className="w-full border-b">
       <div className="wrapper flex items-center justify-between">
@@ -30,7 +36,7 @@ const Header = () => {
             <MobileNav />
           </SignedIn>
           <SignedOut>
-            <Button asChild className="rounded-full" size="lg">
+            <Button asChild className="rounded-full bg-destructive" size="lg" style={orangeButton}>
               <Link href="/sign-in">
                 Login
               </Link>
