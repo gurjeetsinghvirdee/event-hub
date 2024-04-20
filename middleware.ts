@@ -29,7 +29,7 @@ export default authMiddleware({
         '/api/webhook/stripe',
         '/api/webhook/uploadthing',
         '/favicon.ico',
-        '/assets/images/logo1.svg' // Add '/assets/images/logo.svg' as a public route
+        '/assets/images/logo1.svg' 
     ],
     // Define routes to be ignored by Clerk authentication
     ignoredRoutes: [
@@ -37,7 +37,7 @@ export default authMiddleware({
         '/api/webhook/stripe',
         '/api/uploadthing',
         '/favicon.ico',
-        '/assets/images/logo1.svg' // Add '/assets/images/logo.svg' to ignored routes
+        '/assets/images/logo1.svg' 
     ],
 });
 
