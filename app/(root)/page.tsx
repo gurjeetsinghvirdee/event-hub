@@ -30,7 +30,7 @@ export default function Home() {
           </div>
 
           <Image 
-            src="/assets/gif/calendar.gif"
+            src="/assets/gif/event.gif"
             alt="hero banner"
             width={900}
             height={1000}
