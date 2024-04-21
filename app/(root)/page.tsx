@@ -22,7 +22,7 @@ export default function Home() {
               Explore a diverse range of experiences and effortlessly plan your next adventure with us!
             </p>
             <br />
-            <Button style={orangeButton}>
+            <Button style={orangeButton} className="active:scale-95">
               <Link href="#events">
                 Explore Now
               </Link>

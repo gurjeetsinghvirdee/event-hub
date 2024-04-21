@@ -17,8 +17,13 @@ import { Button } from "@/components/ui/button";
 
 const orangeButton = {
     background: "linear-gradient(to right, #ff4903, #FF7700, #FF8811)",
-    color: "#fff"
+    color: "#fff",
+    transition: "background 0.3s ease, color 0.3s ease", // Add transition for smooth effect
+    '&:active': {
+        filter: "brightness(90%)" // Adjust brightness to indicate click
+    }
 };
+
 const formSchema = z.object({
     username: z.string().min(2, {
         message: "Username must be at least 2 characters long."
@@ -62,7 +67,7 @@ const EventForm = ({ userId, type }: EventFormProps) => {
                         </FormItem>
                     )}
                 />
-                <Button type="submit" style={orangeButton}>Submit</Button>
+                <Button type="submit" className="active:scale-95" style={orangeButton}>Submit</Button>
             </form>
         </Form>
     )
