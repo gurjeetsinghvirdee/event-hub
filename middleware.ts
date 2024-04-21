@@ -29,7 +29,8 @@ export default authMiddleware({
         '/api/webhook/stripe',
         '/api/webhook/uploadthing',
         '/favicon.ico',
-        '/assets/images/logo1.svg' 
+        '/assets/images/logo1.svg',
+        '/assets/images/hero.png' 
     ],
     // Define routes to be ignored by Clerk authentication
     ignoredRoutes: [
@@ -37,7 +38,8 @@ export default authMiddleware({
         '/api/webhook/stripe',
         '/api/uploadthing',
         '/favicon.ico',
-        '/assets/images/logo1.svg' 
+        '/assets/images/logo1.svg', 
+        '/assets/images/hero.png'
     ],
 });
 

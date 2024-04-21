@@ -30,9 +30,9 @@ export default function Home() {
           </div>
 
           <Image 
-            src="/assets/images/hero.png"
+            src="/assets/gif/calendar.gif"
             alt="hero banner"
-            width={1000}
+            width={900}
             height={1000}
             className="max-h-[70vh] object-contain object-center 2xl:max-h-[50vh]"
           />

@@ -20,6 +20,7 @@ module.exports = withUt({
     extend: {
       colors: {
         primary: {
+          100: '#ff4903',
           500: '#624CF5',
           50: ' #F6F8FD',
           DEFAULT: '#624CF5',
