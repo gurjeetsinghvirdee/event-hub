@@ -6,7 +6,7 @@ const EventDetails = async ({ params: { id } }: SearchParamProps) => {
     const event = await getEventById(id);
     return (
         <div>
-            EventDetails
+            EventDetails Page
         </div>
     )
 }
