@@ -28,3 +28,25 @@ Key features of EventHub include:
      - **Clerk/Next.js**: Possibly a library or module related to authentication or user management for Next.js applications.
      - **Uploadthing**: A library or tool for handling file uploads in React applications.
      - **Zod**: A TypeScript-first schema declaration and validation library.
+
+### Project Structure
+
+```
+.
+├── app
+├── components
+├── lib
+├── middleware.ts
+├── next.config.mjs
+├── next-env.d.ts
+├── node_modules
+├── package.json
+├── package-lock.json
+├── postcss.config.mjs
+├── public
+├── README.md
+├── tailwind.config.ts
+├── tsconfig.json
+└── types
+
+```
