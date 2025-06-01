@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Script from 'next/script'
 import { Poppins } from "next/font/google";
 import { ClerkProvider } from "@clerk/nextjs";
 
@@ -30,4 +31,13 @@ export default function RootLayout({
       </html>
     </ClerkProvider>
   );
+}
+
+export default function RootLayout({ children }) {
+  return (
+    <html lang="en">
+      <body>{children}</body>
+      <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
+    </html>
+  )
 }
