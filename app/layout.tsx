@@ -28,16 +28,8 @@ export default function RootLayout({
     <ClerkProvider>
       <html lang="en">
         <body className={poppins.variable}>{children}</body>
+        <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
       </html>
     </ClerkProvider>
   );
-}
-
-export default function RootLayout({ children }) {
-  return (
-    <html lang="en">
-      <body>{children}</body>
-      <Script src="https://scripts.simpleanalyticscdn.com/latest.js"  />
-    </html>
-  )
 }
